@@ -5,7 +5,7 @@ import { Icon } from "@iconify/vue";
 
 <template>
   <header>
-    <img src="../assets/logo.png" alt="Logo" />
+    <img src="../assets/header/logo.svg" alt="Logo" />
     <nav>
       <ul>
         <li>
@@ -23,4 +23,25 @@ import { Icon } from "@iconify/vue";
 </template>
 
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+
+  ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+    text-transform: uppercase;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+</style>
