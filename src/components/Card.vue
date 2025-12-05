@@ -17,6 +17,8 @@ defineProps(["imagem"]);
   width: 30vw;
   height: 50vh;
   position: relative;
+  display: flex;
+  flex-wrap: wrap; 
   
   img {
     border-radius: 10px;
