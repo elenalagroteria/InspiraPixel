@@ -18,24 +18,51 @@
 
 <style scoped lang="scss">
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
 
-    h2 {
-        font-size: 2rem;
-    }
+  h2 {
+    font-size: 2.4rem;
+    line-height: 1.2;
 
     span {
-        font-size: 3rem;
-        color: #E1306C;
+      color: #E1306C;
+      font-size: 3.2rem;
     }
+  }
 
-    img {
-        width: 40vw;
-    }
+  p {
+    max-width: 400px;
+    margin-top: 1rem;
+  }
+
+  img {
+    width: 38vw;
+    min-width: 280px;
+  }
 }
 
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero {
+    text-align: center;
+    justify-content: center;
 
-</style>  
+    img {
+      width: 80%;
+    }
+
+    h2 {
+      font-size: 2rem;
+
+      span {
+        font-size: 2.4rem;
+      }
+    }
+  }
+}
+</style>

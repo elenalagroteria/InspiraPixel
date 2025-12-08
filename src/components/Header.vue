@@ -29,19 +29,39 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: 2rem;
+  max-width: 100%;
+  gap: 1rem;
 
-  ul {
+  img {
+    width: 2.5vw;
+  }
+
+  nav ul {
     display: flex;
     align-items: center;
+    gap: 1.5rem;
     list-style: none;
-    gap: 1rem;
     text-transform: uppercase;
   }
 
   a {
     text-decoration: none;
     color: black;
+    font-size: 0.9rem;
   }
 }
 
+/* MOBILE */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+
+    nav ul {
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
 </style>
