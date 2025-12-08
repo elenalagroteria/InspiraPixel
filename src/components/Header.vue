@@ -57,6 +57,10 @@ header {
     flex-direction: column;
     text-align: center;
 
+    img {
+      width: 10vw;
+    }
+
     nav ul {
       gap: 1rem;
       flex-wrap: wrap;
