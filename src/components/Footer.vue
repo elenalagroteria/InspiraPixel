@@ -38,7 +38,6 @@ footer {
   justify-content: space-between;
   gap: 3rem;
 
-  /* Desktop — três colunas */
   .newsletter,
   .infos {
     flex: 1;
@@ -75,7 +74,6 @@ footer {
     }
   }
 
-  /* Contato + Sobre (lado a lado no desktop) */
   .infos {
     display: flex;
     justify-content: flex-start;
@@ -101,7 +99,6 @@ footer {
   }
 }
 
-/* 📱 MOBILE — exatamente como a imagem que você enviou */
 @media (max-width: 768px) {
   footer {
     flex-direction: column;
